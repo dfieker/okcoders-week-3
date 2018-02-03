@@ -39,6 +39,22 @@ img {
 
 .columns {
 	display: flex;
+	flex-direction: column-reverse;
+	/*justify-content: space-around;*/
+}
+
+.columns p {
+	/*width: 33%;*/
+	padding: 6px;
+}
+
+.gallery {
+	display: flex;
+	align-items: center;
+}
+
+.gallery img {
+	height: 180px;
 }
 
 /*.columns p {
